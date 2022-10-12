@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+        integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Bookmarker</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row w-100 pt-5">
+            <div class="title">
+                <h3 class="pb-4 fw-bold">Bookmarker</h3>
+                <hr>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row bgr-contain p-3 mb-2">
+            <div class="bookmark">
+                <p class="pcolor">Bookmark your favorite sites </p>
+
+                <label for="siteName" class="pb-2 fw-bold">Site Name </label>
+                <input type="text" id="siteName" placeholder="Bookmark Name" class="form-control mb-3 w-75 inputs" required>
+
+                <label for="siteURL" class="pb-2 fw-bold">Site URL </label>
+                <input type="url" id="siteURL" placeholder="Website URL" class="form-control w-75 mb-3 inputs" required>
+
+                <button class="btn btn-dark" onclick="submitBookmark()">Submit</button>
+                
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container">
+        <div class="row">
+            <div class="gridView">
+                <table class="table w-90 mx-auto">
+                    <thead>
+
+                        <!-- <th>Name</th>
+                        <th>Visit Site</th>
+                        <th>Delete Bookmark</th> -->
+                    </thead>
+
+                    <tbody id="myTable">
+                        <td></td>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+<footer>
+    <div class="container">
+        <p>© 2019 Bookmarker Inc.</p>
+    </div>
+</footer>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

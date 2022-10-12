@@ -1,0 +1,66 @@
+.bgr-contain {
+    background-color: rgb(203, 201, 201, 0.5);
+}
+
+.pcolor {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.bookmark {
+    text-align: center;
+
+}
+
+.inputs {
+    margin: auto;
+}
+
+footer .container{
+    padding: 20px;
+    border-top: 1px solid #999;
+    font-size: 14px;
+    width: 80%;
+}
+
+footer p{
+    color: #AAA;
+    font-weight: bolder;
+}
+
+.btnVisit{
+    width: 50%;
+   color: white;
+   background-color: rgb(23, 83, 23);
+   border: none;
+   box-shadow: #999 5px;
+   padding: 10px;
+   border-radius: 5px;
+   transition: all 1s;
+}
+
+.btnVisit:hover{
+ background-color: rgb(16, 16, 169);
+ color: white;
+}
+
+.btnDelete{
+    width: 50%;
+   color: black;
+   background-color: rgb(73, 71, 71);
+   border: none;
+   padding: 10px;
+   border-radius: 5px;
+   transition: all 1s;
+}
+
+.btnDelete:hover{
+ background-color: red;
+ color: white;
+}
+
+.bgrGrid{
+    background-image: linear-gradient(#EEE,#FFF);
+    margin: 10px 0;
+    padding: 20px;
+}
